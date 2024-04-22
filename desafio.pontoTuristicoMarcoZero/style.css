@@ -1,0 +1,18 @@
+.links-externos{
+    display: flex;
+    direction: row;
+    align-items: center;
+}
+
+figure{
+    border: 2px solid rgb(0,0,0);
+background-color: aqua;
+padding: 10px;
+height: 250px;
+
+}
+
+.imagem-carte{
+    width: 200px;
+}
+

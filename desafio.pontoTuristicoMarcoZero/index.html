@@ -3,19 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Ponto Histórico de Recife</title>
   </head>
   <body>
     <header>
       <nav>
         <u>
-          <li>Sobre</li>
-          <li>Contatos</li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#outros-locas">Outros locais de Recife</a></li>
+          <li><a href="#contatos">Contatos</a></li>
         </u>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="Sobre">
         <h1>O Marco Zero de Recife</h1>
         <p>
           A Praça do Marco Zero, também conhecida como Praça do Rio Branco,
@@ -39,9 +41,39 @@
           lugar a novos estabelecimentos e avenidas.
         </p>
       </section>
+      <section  id="outros-locas" class="links-externos">
+        <figure>
+          <h2>Rua Bom Jesus</h2>
+          <a
+            href="https://brasiltravelnews.com.br/noticias/rua-do-bom-jesus-em-recife-e-eleita-a-3a-mais-bonita-do-mundo"
+            target="_blank"
+          >
+            <img
+              class="imagem-carte"
+              src="./img/rua do bom Jesus.jpeg"
+              alt="imagem da rua do bom Jesus de Recife"
+            />
+        </a>
+        <figcaption>foto-Rua Bom Jesus</figcaption>
+        </figure>
+        <figure>
+          <h2>Capela Dourada</h2>
+          <a
+            href="https://www2.recife.pe.gov.br/servico/recife-sagrado-0?op=ODY4Ng=="
+            target="_blank"
+          >
+            <img
+              class="imagem-carte"
+              src="./img/capela_dourada_1.jpg"
+              alt="Capela dourada"
+            />
+          </a>
+          <figcaption>foto Capela Dourada</figcaption>
+        </figure>
+      </section>
     </main>
     <footer>
-      <ul>
+      <ul id="contatos">
         <li>Contato:91234-4567</li>
       </ul>
     </footer>
